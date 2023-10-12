@@ -1,0 +1,345 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+      }
+      .navbar-nav .nav-item {
+        display: inline-block;
+        
+}
+    
+    .nav__Ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav__Li{
+        margin: 1rem;
+        font-size: 1.2rem;
+        list-style: none;
+        text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    }
+    
+    .nav__Link{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: 'koulen';
+    }
+    
+    .nav__Logo-img{
+        margin-left: 2rem;
+        width: 70px;
+        height: 70px;
+        filter: brightness(100%);
+    }
+
+    /* MENU */
+
+.burger-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(200, 243, 46);
+    padding-left: 15px;
+    color: #000000;
+}
+
+.menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 3;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "ele1 ele2 ele3"
+    "ele4 ele5 ele6";
+    background-color: #000000;
+}
+
+.grid1 {
+    grid-area: ele1;
+    width: 400px;
+}
+
+
+.grid2 {
+    grid-area: ele2;
+    width: 400px;
+}
+
+
+.grid3 {
+    grid-area: ele3;
+    width: 400px;
+}
+
+
+.grid4 {
+    grid-area: ele4;
+    width: 400px;
+}
+
+
+.grid5 {
+    grid-area: ele5;
+    width: 400px;
+}
+
+.grid6 {
+    grid-area: ele6;
+    width: 400px;
+}
+
+.menuTitulo {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    margin: 3px;
+}
+
+.menuDesc {
+    color: antiquewhite;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+    .containerMenu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 3rem;
+      box-shadow: -8px -10px 5px 0px rgb(255, 255, 255);
+    -webkit-box-shadow: -8px -10px 5px 0px rgb(255, 255, 255);
+    -moz-box-shadow: -8px -10px 5px 0px rgb(254, 254, 254);
+    }
+
+    .menuImg {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    /* PROMOCIONES */
+
+    .sec-promociones {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 2;
+        grid-template-rows: 2;
+        grid-template-areas: 
+        "ele1 ele2"
+        "ele3 ele4";
+    }
+
+    .promo1 {
+        grid-area: ele1;
+        margin: 5px;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .promo2 {
+        grid-area: ele2;
+        margin: 1rem;
+    }
+
+    .promo3 {
+        grid-area: ele3;
+        margin: 1rem;
+    }
+
+    .promo4 {
+        grid-area: ele4;
+        margin: 1rem;
+    }
+
+    .promoTitulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 2rem;
+    }
+
+    .promoBancos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem;
+    }
+
+    .bancoImg {
+        width: 400px;
+    }
+
+    .bancoDesc {
+        margin: 1rem;
+        font-size: 1.3rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /* SOBRE NOSOTROS */
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nosotros_Historia {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nosotros_Historia-Imagenes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nosotros_Historia-Familia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+    }
+
+    .nosotros_Historia-Titulo {
+        font-size: 1.5rem;
+        font-weight: 100;
+        color: rgb(1, 96, 64);
+        margin: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .nosotros_Historia-Txt {
+        font-size: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .imgNosotros{
+        width: 400px;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    /* Tablet */
+
+    @media screen and (max-width: 1499px) {
+
+        /* MENU */
+
+.burger-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(200, 243, 46);
+    padding-left: 15px;
+    color: #000000;
+}
+
+.menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "ele1 ele2"
+    "ele3 ele4"
+    "ele5 ele6";
+    background-color: #000000;
+}
+
+.grid1 {
+    grid-area: ele1;
+    width: 400px;
+}
+
+
+.grid2 {
+    grid-area: ele2;
+    width: 400px;
+}
+
+
+.grid3 {
+    grid-area: ele3;
+    width: 400px;
+}
+
+
+.grid4 {
+    grid-area: ele4;
+    width: 400px;
+}
+
+
+.grid5 {
+    grid-area: ele5;
+    width: 400px;
+}
+
+.grid6 {
+    grid-area: ele6;
+    width: 400px;
+}
+
+.menuTitulo {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    margin: 3px;
+}
+
+.menuDesc {
+    color: antiquewhite;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+    .containerMenu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 3rem;
+      box-shadow: -8px -10px 5px 0px rgb(255, 255, 255);
+    -webkit-box-shadow: -8px -10px 5px 0px rgb(255, 255, 255);
+    -moz-box-shadow: -8px -10px 5px 0px rgb(254, 254, 254);
+    }
+
+    .menuImg {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    }
+
+
+
+
+
+
