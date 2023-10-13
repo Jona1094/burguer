@@ -459,7 +459,6 @@
         justify-content: center;
         align-items: center;
         grid-template-columns: 1;
-        grid-template-rows: repeat(1, 1fr);
         grid-template-areas: 
         "ele1"
         "ele2"
